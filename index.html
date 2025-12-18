@@ -65,17 +65,22 @@
         <a href="https://wa.me/51947027023" target="_blank">
           <i class="fab fa-whatsapp"></i> WhatsApp
         </a>
-        <a href="https://www.instagram.com/acevy__/" target="_blank">
-          <i class="fab fa-instagram"></i> Instagram
-        </a>
       </div>
       <p><strong>Dirección:</strong> Colegio La Libertad - Huaraz</p>
     </section>
   </main>
 
-  <footer>
-    <p> 2025 &copy; ACEVY SUGAR. Todos los derechos reservados.</p>
+  <footer class="bg-white sticky-footer">
+      <div class="container my-auto">
+          <div class="text-center my-auto copyright">
+              <h6><b><span>Copyright © ACEVY SUGAR <span id="year"></span>. Todos los derechos reservados.</span></b></h6>
+          </div>
+      </div>
+      <script>
+          document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
   </footer>
 
 </body>
+
 </html>
